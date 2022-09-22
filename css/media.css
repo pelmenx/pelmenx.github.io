@@ -1,0 +1,21 @@
+@media all and (max-width: 768px) {
+    .item {
+        max-height: initial;
+        max-width: initial;
+        width: 95vw;
+        height: calc(95vw / 16 * 9);
+    }
+
+    .img_link {
+        margin: 5px 0;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .img_link:hower {
+        opacity: 1;
+        transform: scale(3) rotate(360deg);
+        z-index: 10;
+        box-shadow: 0 0 200px 30px rgba(104, 7, 230, 0.959);
+    }
+}
